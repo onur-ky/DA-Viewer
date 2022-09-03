@@ -1,0 +1,33 @@
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
+.spinner-container {
+    position: relative;
+}
+
+.spinner {
+    width: 128px;
+    height: 128px;
+    border: solid 1px black;
+    border-right: solid 4px red;
+    border-radius: 50%;
+    transform: rotate();
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.spinner-text {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
