@@ -24,7 +24,7 @@
 }
 
 .card {
-  width: 1000px;
+  width: 1200px;
   height: 750px;
   background-color: white;
   border-radius: 15px;
@@ -47,6 +47,24 @@
   place-items: center;
 }
 
-.heatmap img{
-  width: 700px;
+.heatmap{
+  overflow: scroll;
+  padding: 16px;
+}
+
+.csv_export {
+  background-color: #1d6f42;
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.export-display {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
 }
